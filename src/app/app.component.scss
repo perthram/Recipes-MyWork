@@ -1,3 +1,21 @@
-h1 {
-    color: red;
+.my-receipes {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: url('../assets/images/image1.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        width: auto;
+        height: 2rem;
+        font-size: 16px;
+        color: blue;
+        border-radius: 50%;
+    }
 }
